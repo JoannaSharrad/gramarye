@@ -21,9 +21,9 @@ For GUI Support:
 
 Currently WX/WXCore does not work with the latest version of Haskell. To counter this the GUI code has been left in tact in the source but has been commented out with "{-GUI-" and "-GUI-}" meaning that when it is available replacing all of the instances of these keywords will re-instate the GUI.
 
-![Gramarye GUI](https://github.com/JoannaSharrad/gramarye/images/gui.png)
+![Gramarye GUI](https://github.com/JoannaSharrad/gramarye/blob/master/images/gui.png)
 
-![Gramarye GUI after locating Type Error](https://github.com/JoannaSharrad/gramarye/images/gui2.png)
+![Gramarye GUI after locating Type Error](https://github.com/JoannaSharrad/gramarye/blob/master/images/gui2.png)
 
 
 **Using Gramarye**
@@ -47,4 +47,4 @@ Run with ./Main *pathToProgramSource*
 The debugger will run automatically and result in a giving you a line number of your type error.
 It will auto-quit the debugger so if you want to change your original program and re-test just re-run the first command.
 
-![Gramarye Console after locating Type Error](https://github.com/JoannaSharrad/gramarye/images/console.png)
+![Gramarye Console after locating Type Error](https://github.com/JoannaSharrad/gramarye/blob/master/images/console.png)
